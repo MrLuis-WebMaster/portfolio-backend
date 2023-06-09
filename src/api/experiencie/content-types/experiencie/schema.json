@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experiencies",
+  "info": {
+    "singularName": "experiencie",
+    "pluralName": "experiencies",
+    "displayName": "Experience",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "jobTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "employmentDuration": {
+      "type": "string"
+    }
+  }
+}

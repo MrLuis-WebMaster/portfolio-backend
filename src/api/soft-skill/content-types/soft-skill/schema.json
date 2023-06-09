@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "soft_skills",
+  "info": {
+    "singularName": "soft-skill",
+    "pluralName": "soft-skills",
+    "displayName": "SoftSkill",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "iconSkill": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
