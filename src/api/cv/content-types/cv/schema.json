@@ -89,6 +89,22 @@
       "type": "json"
     },
     "cv": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "imageHome": {
       "allowedTypes": [
         "images",
         "files",
@@ -96,7 +112,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
