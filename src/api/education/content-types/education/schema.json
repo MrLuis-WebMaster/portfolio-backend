@@ -15,14 +15,14 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
-    },
     "date": {
       "type": "string"
     },
     "institution": {
       "type": "string"
+    },
+    "description": {
+      "type": "richtext"
     }
   }
 }
