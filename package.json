@@ -1,7 +1,7 @@
 {
   "name": "backend-portfolio",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Strapi application for backend portfolio",
   "scripts": {
     "develop": "strapi develop",
